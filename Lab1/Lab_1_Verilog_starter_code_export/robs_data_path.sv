@@ -32,17 +32,16 @@ module robs_datapath #(parameter WIDTH = 8)
 	assign product = {a,x};			 // concatenate operator, creates one vector from a followed by x
 // fill in guts
 	// fill in guts
-always_comb begin
+	always_comb begin
     if (r[0] == 0) 
         zr = 1;
     else 
         zr = 0;
-
     if (q[2:0] == 3'b000) 
         zq = 1;
     else 
         zq = 0;
-end
+	end
 //  similar treatment for zq;
 //    zr = 1 if r is even
 //    zq = 1 if q is divisible by 8
