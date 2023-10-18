@@ -10,8 +10,8 @@ module register # (parameter N = 8)
 	 
   always_ff @ (posedge clk, posedge clear)    begin
 // fill in guts
-  if(clear) out <= 0 ;          // use <= nonblocking assignment!
-  else if(load) out <= in ;
+  if(clear == 1) out <= 0 ;          // use <= nonblocking assignment!
+  else if(load == 1) out <= in ;
 //   clear   load    out
 // 	   1       0      0	   (clear output)
 //     1       1      0

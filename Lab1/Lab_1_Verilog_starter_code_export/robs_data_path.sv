@@ -6,7 +6,7 @@ module robs_datapath #(parameter WIDTH = 8)
 	input [WIDTH-1:0] multiplier, multiplicand,
 	input[14:0]  c,
 	output [WIDTH*2-1:0] product,
-	output zq, zr
+	output logic zq, zr
 	);
 	
 	// Internal signals of the datapath module
@@ -31,8 +31,18 @@ module robs_datapath #(parameter WIDTH = 8)
 	// External: signals to control unit and outbus
 	assign product = {a,x};			 // concatenate operator, creates one vector from a followed by x
 // fill in guts
-	always_comb if(r%2 === 0) zr = 1; else zr = 0;
-	always_comb if(q%8 === 0) zq = 1; else zq = 0;
+	// fill in guts
+always_comb begin
+    if (r[0] == 0) 
+        zr = 1;
+    else 
+        zr = 0;
+
+    if (q[2:0] == 3'b000) 
+        zq = 1;
+    else 
+        zq = 0;
+end
 //  similar treatment for zq;
 //    zr = 1 if r is even
 //    zq = 1 if q is divisible by 8

@@ -13,10 +13,11 @@ module register_hl # (parameter N = 16)
 	
   always_ff @ (posedge clk, posedge clear) begin
 //fill in the guts  -- sequential
- if(clear) out <= 0;
- else begin
- if(loadh) out[N-1:N/2] <= inh;
- if(loadl) out[N/2-1:0] <= inl;
+ if(clear == 1) out <= 0;
+ else 
+ begin
+  if(loadh ==1) out[N-1:N/2] <= inh;
+  if(loadl == 1) out[N/2-1:0] <= inl;
  end
 //  clear   loadh    loadl	 out[N-1:N/2]   out[N/2-1:0] 
 //    1		  x		   x	     0				 0

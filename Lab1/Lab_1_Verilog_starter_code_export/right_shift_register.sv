@@ -10,8 +10,8 @@ module right_shift_register #(parameter WIDTH = 16)(
 	always @(posedge clk) begin
 // fill in the guts	-- holds or shifts by 1 bit position
 // this is a sequential operation, requiring nonblocking (<=) assignments
- if(!enable) out <= in;
- else if(mode) out <= in >> 1;
+ if(enable == 0) out <= in;
+ else if(mode == 1) out <= in >> 1;
  else out <= in >>> 1;
 //    enable   mode      out  
 //      0       0        hold (no change in output)

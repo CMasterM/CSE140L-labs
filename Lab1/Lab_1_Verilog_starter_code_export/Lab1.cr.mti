@@ -1,4 +1,26 @@
-C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_1_Verilog_starter_code_export/right_shift_register.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_1_Verilog_starter_code_export/right_shift_register.sv
+C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/addsub.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/addsub.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 20:46:20 on Oct 17,2023
+vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/addsub.sv 
+-- Compiling module addsub
+
+Top level modules:
+	addsub
+End time: 20:46:20 on Oct 17,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/robs_data_path.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/robs_data_path.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 20:46:20 on Oct 17,2023
+vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/robs_data_path.sv 
+-- Compiling module robs_datapath
+
+Top level modules:
+	robs_datapath
+End time: 20:46:20 on Oct 17,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_1_Verilog_starter_code_export/right_shift_register.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_1_Verilog_starter_code_export/right_shift_register.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 Start time: 18:09:05 on Oct 14,2023
 vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_1_Verilog_starter_code_export/right_shift_register.sv 
@@ -20,6 +42,28 @@ Top level modules:
 End time: 18:09:05 on Oct 14,2023, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
+} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/upc_reg.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/upc_reg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 20:46:20 on Oct 17,2023
+vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/upc_reg.sv 
+-- Compiling module upcreg
+
+Top level modules:
+	upcreg
+End time: 20:46:20 on Oct 17,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/mux3.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/mux3.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 20:46:20 on Oct 17,2023
+vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/mux3.sv 
+-- Compiling module mux3
+
+Top level modules:
+	mux3
+End time: 20:46:20 on Oct 17,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
 } {} {}} C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_1_Verilog_starter_code_export/robertsonstest.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_1_Verilog_starter_code_export/robertsonstest.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 Start time: 18:09:05 on Oct 14,2023
@@ -29,6 +73,28 @@ vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_
 Top level modules:
 	robertsonstest
 End time: 18:09:05 on Oct 14,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/mux5.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/mux5.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 20:46:20 on Oct 17,2023
+vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/mux5.sv 
+-- Compiling module mux5
+
+Top level modules:
+	mux5
+End time: 20:46:20 on Oct 17,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/robsmult.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/robsmult.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 20:46:20 on Oct 17,2023
+vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/robsmult.sv 
+-- Compiling module robsmult
+
+Top level modules:
+	robsmult
+End time: 20:46:20 on Oct 17,2023, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
 } {} {}} C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_1_Verilog_starter_code_export/addsub.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_1_Verilog_starter_code_export/addsub.sv
@@ -87,6 +153,17 @@ Top level modules:
 End time: 18:09:05 on Oct 14,2023, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
+} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/mux2.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/mux2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 20:46:20 on Oct 17,2023
+vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/mux2.sv 
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+End time: 20:46:20 on Oct 17,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
 } {} {}} C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_1_Verilog_starter_code_export/mux5.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_1_Verilog_starter_code_export/mux5.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 Start time: 18:09:05 on Oct 14,2023
@@ -96,6 +173,17 @@ vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_
 Top level modules:
 	mux5
 End time: 18:09:05 on Oct 14,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/register.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/register.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 20:46:20 on Oct 17,2023
+vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/register.sv 
+-- Compiling module register
+
+Top level modules:
+	register
+End time: 20:46:20 on Oct 17,2023, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
 } {} {}} C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_1_Verilog_starter_code_export/register_hl.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_1_Verilog_starter_code_export/register_hl.sv
@@ -120,6 +208,72 @@ Top level modules:
 End time: 18:09:06 on Oct 14,2023, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
+} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/rom.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 20:46:20 on Oct 17,2023
+vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/rom.sv 
+-- Compiling module rom
+
+Top level modules:
+	rom
+End time: 20:46:20 on Oct 17,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/robs_control_unit_micro.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/robs_control_unit_micro.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 20:46:20 on Oct 17,2023
+vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/robs_control_unit_micro.sv 
+-- Compiling module robs_control_unit_micro
+
+Top level modules:
+	robs_control_unit_micro
+End time: 20:46:20 on Oct 17,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/right_shift_register.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/right_shift_register.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 20:46:20 on Oct 17,2023
+vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/right_shift_register.sv 
+-- Compiling module right_shift_register
+
+Top level modules:
+	right_shift_register
+End time: 20:46:20 on Oct 17,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/counter_down.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/counter_down.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 20:46:20 on Oct 17,2023
+vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/counter_down.sv 
+-- Compiling module counter_down
+
+Top level modules:
+	counter_down
+End time: 20:46:20 on Oct 17,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/register_hl.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/register_hl.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 20:46:20 on Oct 17,2023
+vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/register_hl.sv 
+-- Compiling module register_hl
+
+Top level modules:
+	register_hl
+End time: 20:46:20 on Oct 17,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/robertsonstest.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/robertsonstest.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 20:46:20 on Oct 17,2023
+vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab_1_Verilog_starter_code_export/robertsonstest.sv 
+-- Compiling module robertsonstest
+
+Top level modules:
+	robertsonstest
+End time: 20:46:20 on Oct 17,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
 } {} {}} C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_1_Verilog_starter_code_export/mux2.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_1_Verilog_starter_code_export/mux2.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 Start time: 18:09:05 on Oct 14,2023
@@ -131,17 +285,6 @@ Top level modules:
 End time: 18:09:05 on Oct 14,2023, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_1_Verilog_starter_code_export/register.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_1_Verilog_starter_code_export/register.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-Start time: 18:09:05 on Oct 14,2023
-vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_1_Verilog_starter_code_export/register.sv 
--- Compiling module register
-
-Top level modules:
-	register
-End time: 18:09:05 on Oct 14,2023, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
-
 } {} {}} C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_1_Verilog_starter_code_export/upc_reg.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_1_Verilog_starter_code_export/upc_reg.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 Start time: 18:09:05 on Oct 14,2023
@@ -150,6 +293,17 @@ vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_
 
 Top level modules:
 	upcreg
+End time: 18:09:05 on Oct 14,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_1_Verilog_starter_code_export/register.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_1_Verilog_starter_code_export/register.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 18:09:05 on Oct 14,2023
+vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Lab1/Lab_1_Verilog_starter_code_export/register.sv 
+-- Compiling module register
+
+Top level modules:
+	register
 End time: 18:09:05 on Oct 14,2023, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 

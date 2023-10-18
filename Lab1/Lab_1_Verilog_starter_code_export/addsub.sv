@@ -12,7 +12,7 @@ module addsub #(parameter dw=8)		 // dw = data width
 // fill in guts  
 // combinational logic, use blocking (=) assignment
 always_comb begin
-  if(add_sub) result = dataa + datab;
+  if(add_sub == 1) result = dataa + datab;
   else result = dataa-datab;
 end      
 //add_sub       result
