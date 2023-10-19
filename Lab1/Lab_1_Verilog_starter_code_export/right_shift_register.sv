@@ -4,15 +4,20 @@ module right_shift_register #(parameter WIDTH = 16)(
     input                    enable,
     input        signed [WIDTH-1:0] in, // input to shift
     input                    mode, // arithmetic (0) or logical (1) shift
-    output logic [WIDTH-1:0] out); // shifted input
+    output logic signed [WIDTH-1:0] out); // shifted input
 
-	
+	initial out = 0;
+
+
 	always @(posedge clk) begin
 // fill in the guts	-- holds or shifts by 1 bit position
 // this is a sequential operation, requiring nonblocking (<=) assignments
- if(enable == 0) out <= in;
- else if(mode == 1) out <= (in >> 1);
- else out <= (in >>> 1);
+ if(enable == 0) 
+    out <= in;
+ else if(mode == 1) 
+    out <= (in >> 1);
+ else 
+    out <= (in >>> 1);
 //    enable   mode      out  
 //      0       0        hold (no change in output)
 //		0       1	     hold
