@@ -25,6 +25,8 @@ module right_shift_register #(parameter WIDTH = 16)(
 //		1		0	     load and arithmetic right shift
     end
 
+
+
 /* logical right shift fills in 0s from the left
   logic[3:0] a, b;
   assign a = 4'b1000;	// = +8 decimal

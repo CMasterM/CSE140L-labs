@@ -45,29 +45,29 @@ module robertsonstest;
     rslt_disp;
 // Add stimulus here
 // start w/ Positive Multiplicand, Positive Multiplier
-    multiplier   = 5;
-    multiplicand = 6;
-    rslt_disp;
+    //multiplier   = 5;
+    //multiplicand = 6;
+    //rslt_disp;
 // Negative Multiplicand, Positive Multiplier    
-    multiplier   =  7;
-    multiplicand = -5;
+    multiplier   =  6;
+    multiplicand = 9;
     rslt_disp;
 // Positive Multiplicand, Negative Multiplier
-    multiplier   = -5;
-    multiplicand =  6;
-    rslt_disp;
+    //multiplier   = -5;
+    //multiplicand =  6;
+    //rslt_disp;
 // Positive Multiplicand, Negative Multiplier
-    multiplier   = -7;
-    multiplicand =  8;
-    rslt_disp;
+    //multiplier   = -7;
+    //multiplicand =  8;
+    //rslt_disp;
 // Negative Multiplicand, Negative Multiplier
-    multiplier   = -5;
-    multiplicand = -6;
-    rslt_disp;
+    //multiplier   = -5;
+    //multiplicand = -6;
+    //rslt_disp;
 // Negative Multiplicand, Negative Multiplier
-    multiplier   = -9;
-    multiplicand = -4;
-    rslt_disp;
+    //multiplier   = -9;
+    //multiplicand = -4;
+    //rslt_disp;
 // now try a comprehensive test -- nested FOR loops
     $stop;   // comment out for longer test
     for(multiplier = -64; multiplier<64; multiplier++) begin

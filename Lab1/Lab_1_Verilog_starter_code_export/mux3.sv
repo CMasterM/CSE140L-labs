@@ -8,8 +8,8 @@ module mux3 #(parameter WIDTH = 8)
 // fill in guts (combinational -- assign or always_comb, use =)
 always_comb begin
   case(s)
-    0: y = d0;
-    1: y = d1;
+    2'b00: y = d0;
+    2'b01: y = d1;
     default: y = d2;
   endcase 
 end

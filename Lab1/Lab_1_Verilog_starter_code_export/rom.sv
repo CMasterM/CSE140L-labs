@@ -1,13 +1,13 @@
 // Control Memory (Read-only)
 module rom(
-  input       [ 4:0] addr, 
+  input        [4:0] addr, 
   output logic[22:0] data);
     
   logic  [22:0] mem[18];    // memory core, 23 bits wide, 18 elements deep
     
   initial begin
     for(int i=0; i<18; i++) begin
-      mem[i] = '0;			// start by initializing all elements to 0, then override below
+      mem[i] = 0;			// start by initializing all elements to 0, then override below
     end
 // preload Microcode ROM with Roberston's multiplication algorithm
     mem[00] = 23'b00000001000000000000011;
@@ -30,7 +30,8 @@ module rom(
     mem[17] = 23'b10010001000000000000000;
   end
 
-// fill in the guts   
-   assign data = mem[addr];
+// fill in the guts  
+   always_comb data = mem[addr];
+
 
 endmodule
