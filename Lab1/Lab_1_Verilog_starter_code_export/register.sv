@@ -9,11 +9,11 @@ module register # (parameter N = 8)
     );
 	 
   always_ff @ (posedge clk, posedge clear)    begin
-// fill in guts
-  if(clear == 1) out <= 0 ;          // use <= nonblocking assignment!
-  else if(load == 1) out <= in ;
+    if      (clear == 1) out <= '0; // clear output
+    else if (load  == 1) out <= in;
+  end
 //   clear   load    out
-// 	   1       0      0	   (clear output)
+//     1       0      0	   (clear output)
 //     1       1      0
 //     0       0     hold  (no change in output)
 //     0       1      in   (update output)
@@ -21,8 +21,6 @@ module register # (parameter N = 8)
 
 	
 // Aside: What would be the impact of leaving posedge clear out of 
-//  the sensitivity list? 
-end	
-		
+//  the sensitivity list? 		
 endmodule
 

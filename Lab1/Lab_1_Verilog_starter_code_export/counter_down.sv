@@ -8,9 +8,11 @@ module counter_down	#(parameter dw=8, WIDTH=7)
   output logic [dw-1:0] result);
 
   always @(posedge clk)	 begin
-// fill in guts -- clocked (sequential) logic
-    if(reset == 1 ) result <= WIDTH;	      // note nonblocking (<=) assignment!!
-    else if(ena ==1 ) result <= result - 1;
+    if      (reset == 1) result <= WIDTH;      // reset result
+    else if(ena) begin
+      if(result > 0) result <= result - 1;   // Decrement if enabled and greater than 0
+      // No need to handle the case where result is 0 and ena is 1, because it should stay at 0
+    end
 //reset   ena      result
 //  1      1       WIDTH
 //  1      0       WIDTH						 

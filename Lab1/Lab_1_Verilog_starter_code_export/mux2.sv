@@ -4,14 +4,11 @@ module mux2 #(parameter WIDTH = 8)
  (input        [WIDTH-1:0] d0, d1, 
   input                    s, 
   output logic [WIDTH-1:0] y);
-// fill in guts
-// combinational (unclocked) logic -- use =, not <=
- always_comb begin
-  if(s == 0) y = d0;
-  else y = d1;
 
- end
- 
+  always_comb begin
+    if(s == 0) y = d0;
+    else       y = d1;
+  end
 
 // s   y
 // 0   d0	y[7:0] = d0[7:0]
