@@ -10,7 +10,7 @@ cModel Technology
 dC:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab1working/lab1
 valarm
 Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z1 !s110 1698626975
+Z1 !s110 1698628240
 !i10b 1
 !s100 m<RI_=GimSPeQdng_]?AH1
 IA9KHDO^41BS9CD?O5BeC33
@@ -26,7 +26,7 @@ Z5 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z6 !s108 1698626975.000000
+Z6 !s108 1698628240.000000
 !s107 C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/alarm.sv|
 !s90 -reportprogress|300|-work|work|-sv|C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/alarm.sv|
 !i113 1
@@ -59,7 +59,7 @@ R8
 nct_mod_@n
 Xdisplay_tb_file_sv_unit
 R0
-Z9 !s110 1698626976
+R1
 !i10b 1
 !s100 O[A3XBQn<00=68lblch=C3
 Ie:9zD>WDQe^n7gm4W0`z82
@@ -67,7 +67,7 @@ Ve:9zD>WDQe^n7gm4W0`z82
 !i103 1
 S1
 R3
-Z10 w1698625361
+Z9 w1698625361
 8C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/display_tb_file.sv
 FC:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/display_tb_file.sv
 L0 3
@@ -75,7 +75,7 @@ R5
 r1
 !s85 0
 31
-Z11 !s108 1698626976.000000
+R6
 !s107 C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/display_tb_file.sv|
 !s90 -reportprogress|300|-work|work|-sv|C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/display_tb_file.sv|
 !i113 1
@@ -95,13 +95,13 @@ InP1Iz5FKHX^j:@WOdzDb>1
 S1
 R3
 R4
-Z12 8C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/lab2_tb_file.sv
-Z13 FC:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/lab2_tb_file.sv
+Z10 8C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/lab2_tb_file.sv
+Z11 FC:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/lab2_tb_file.sv
 L0 4
 R5
-R11
-Z14 !s107 display_tb_file.sv|C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/lab2_tb_file.sv|
-Z15 !s90 -reportprogress|300|-work|work|-sv|C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/lab2_tb_file.sv|
+R6
+Z12 !s107 display_tb_file.sv|C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/lab2_tb_file.sv|
+Z13 !s90 -reportprogress|300|-work|work|-sv|C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/lab2_tb_file.sv|
 !i113 1
 R7
 R8
@@ -117,21 +117,21 @@ I2]_ePaV3?oS9^4lJ`k0E11
 !i103 1
 S1
 R3
+R9
 R10
-R12
-R13
+R11
 Fdisplay_tb_file.sv
 L0 3
 R5
-R11
-R14
-R15
+R6
+R12
+R13
 !i113 1
 R7
 R8
 vlcd_int
 R0
-R9
+R1
 !i10b 1
 !s100 CLXNZ?_mf<^c9GKeZ_RW[2
 IMHWR;T^]_l:9I4R[OhhXn0
@@ -147,7 +147,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/lcd_int3.sv|
 !s90 -reportprogress|300|-work|work|-sv|C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/lcd_int3.sv|
 !i113 1
@@ -155,15 +155,15 @@ R7
 R8
 vstruct_diag
 R0
-R9
+R1
 !i10b 1
-!s100 MCJ3zMbgicziaM8898EDZ0
-If1UEggT8>?nbhg?]J[^U?1
+!s100 H5:l@c1=6m`I`1n=m6<ai2
+IGjl>][8RBK0`C94d:PMRm1
 R2
 !s105 struct_diag_sv_unit
 S1
 R3
-w1698626963
+w1698628226
 8C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/struct_diag.sv
 FC:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/struct_diag.sv
 L0 4
@@ -171,7 +171,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/struct_diag.sv|
 !s90 -reportprogress|300|-work|work|-sv|C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/struct_diag.sv|
 !i113 1

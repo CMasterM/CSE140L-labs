@@ -64,13 +64,13 @@ end
 	);
 
   lcd_int Mdisp(
-    .bin_in    (TMin),
+    .bin_in    (Alarmset?AMin:TMin),
 	.Segment1  (M1disp),
 	.Segment0  (M0disp)
 	);
 
   lcd_int Hdisp(
-    .bin_in    (THrs),
+    .bin_in    (Alarmset?AHrs:THrs),
 	.Segment1  (H1disp),
 	.Segment0  (H0disp)
 	);
