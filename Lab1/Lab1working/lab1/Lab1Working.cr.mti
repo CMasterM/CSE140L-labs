@@ -119,17 +119,6 @@ Top level modules:
 End time: 12:50:46 on Oct 22,2023, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab1working/lab1/right_shift_register.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab1working/lab1/right_shift_register.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-Start time: 12:50:46 on Oct 22,2023
-vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab1working/lab1/right_shift_register.sv 
--- Compiling module right_shift_register
-
-Top level modules:
-	right_shift_register
-End time: 12:50:46 on Oct 22,2023, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
-
 } {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab1working/lab1/counter_down.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab1working/lab1/counter_down.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 Start time: 12:50:46 on Oct 22,2023
@@ -138,6 +127,17 @@ vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE1
 
 Top level modules:
 	counter_down
+End time: 12:50:46 on Oct 22,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab1working/lab1/right_shift_register.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab1working/lab1/right_shift_register.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 12:50:46 on Oct 22,2023
+vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab1/Lab1working/lab1/right_shift_register.sv 
+-- Compiling module right_shift_register
+
+Top level modules:
+	right_shift_register
 End time: 12:50:46 on Oct 22,2023, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
