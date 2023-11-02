@@ -77,7 +77,7 @@ end
 
 // buzz off :)	  make the connections
   alarm a1(
-    .tmin(TMin), .amin(AMin), .thrs(THrs), .ahrs(AHrs), .buzz(Buzz)
+    .tmin(TMin), .amin(AMin), .thrs(THrs), .ahrs(AHrs), .en(Alarmon), .buzz(Buzz)
 	);
 
 endmodule

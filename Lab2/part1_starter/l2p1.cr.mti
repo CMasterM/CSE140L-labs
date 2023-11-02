@@ -1,67 +1,55 @@
 C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/ct_mod_N.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/ct_mod_N.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-Start time: 18:10:40 on Oct 29,2023
+Start time: 16:24:24 on Nov 01,2023
 vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/ct_mod_N.sv 
 -- Compiling module ct_mod_N
 
 Top level modules:
 	ct_mod_N
-End time: 18:10:40 on Oct 29,2023, Elapsed time: 0:00:00
+End time: 16:24:24 on Nov 01,2023, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
 } {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/lcd_int3.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/lcd_int3.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-Start time: 18:10:40 on Oct 29,2023
+Start time: 16:24:24 on Nov 01,2023
 vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/lcd_int3.sv 
 -- Compiling module lcd_int
 
 Top level modules:
 	lcd_int
-End time: 18:10:40 on Oct 29,2023, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
-
-} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/struct_diag.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/struct_diag.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-Start time: 18:10:40 on Oct 29,2023
-vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/struct_diag.sv 
--- Compiling module struct_diag
-
-Top level modules:
-	struct_diag
-End time: 18:10:40 on Oct 29,2023, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
-
-} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/lab2_tb_file.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/lab2_tb_file.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-Start time: 18:10:40 on Oct 29,2023
-vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/lab2_tb_file.sv 
--- Compiling package lab2_tb_file_sv_unit
--- Compiling module lab2_tb
-
-Top level modules:
-	lab2_tb
-End time: 18:10:40 on Oct 29,2023, Elapsed time: 0:00:00
+End time: 16:24:24 on Nov 01,2023, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
 } {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/alarm.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/alarm.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-Start time: 18:10:40 on Oct 29,2023
+Start time: 16:24:24 on Nov 01,2023
 vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/alarm.sv 
 -- Compiling module alarm
 
 Top level modules:
 	alarm
-End time: 18:10:40 on Oct 29,2023, Elapsed time: 0:00:00
+End time: 16:24:24 on Nov 01,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/struct_diag.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/struct_diag.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 16:24:24 on Nov 01,2023
+vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/struct_diag.sv 
+-- Compiling module struct_diag
+
+Top level modules:
+	struct_diag
+End time: 16:24:24 on Nov 01,2023, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
 } {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/display_tb_file.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/display_tb_file.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-Start time: 18:10:40 on Oct 29,2023
+Start time: 16:24:24 on Nov 01,2023
 vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part1_starter/display_tb_file.sv 
 
 Top level modules:
 	--none--
-End time: 18:10:40 on Oct 29,2023, Elapsed time: 0:00:00
+End time: 16:24:24 on Nov 01,2023, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
 } {} {}}

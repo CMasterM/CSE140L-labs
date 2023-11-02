@@ -16,7 +16,7 @@ module lab2_tb();
 	        H1disp, H0disp, D0disp;
   wire Buzz;
 
-  top_level top(.*); // (.Reset(Reset),....)
+   struct_diag sd(.*); // (.Reset(Reset),....)
 
   initial begin
     $monitor("buzz = %b  at time %t",Buzz,$time);

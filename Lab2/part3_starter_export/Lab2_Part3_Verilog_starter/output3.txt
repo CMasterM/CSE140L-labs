@@ -1,0 +1,32 @@
+# 5': before setting. '010100000', Jan 1,                 4000
+#  _        _        _    _   _    _   _  
+# | |   |  | |   |  | |  | | | |  | | | | 
+# |_|   |  |_|   |  |_|  |_| |_|  |_| |_| 
+# 5':after setting,'1231', manually increment date/month successful                68000
+#      _    _        _    _   _    _   _  
+#   |  _|   _|   |  | |  | | | |  | | | | 
+#   | |_    _|   |  |_|  |_| |_|  |_| |_| 
+# 5': '010100',passively increment date/month successful, also testing range month 1-12, date from 1            172868000
+#  _        _             _   _    _   _  
+# | |   |  | |   |    |  | | | |  | | | | 
+# |_|   |  |_|   |    |  |_| |_|  |_| |_| 
+# 5'---------------testing mod-----------
+# testing Feb has 28 days:'0228'            172926000
+#  _   _    _   _         _   _    _   _  
+# | |  _|   _| |_|    |  | | | |  | | | | 
+# |_| |_   |_  |_|    |  |_| |_|  |_| |_| 
+# 0301
+#  _   _    _        _    _   _    _   _  
+# | |  _|  | |   |   _|  | | | |  | | | | 
+# |_|  _|  |_|   |  |_   |_| |_|  |_| |_| 
+# testing April has 30 days: '0430'            345788000
+#  _        _   _    _    _   _    _   _  
+# | | |_|   _| | |   _|  | | | |  | | | | 
+# |_|   |   _| |_|  |_   |_| |_|  |_| |_| 
+# 5 points: 0501            518588000
+#  _   _    _        _    _   _    _   _  
+# | | |_   | |   |   _|  | | | |  | | | | 
+# |_|  _|  |_|   |   _|  |_| |_|  |_| |_| 
+# ** Note: $stop    : C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/lab2_3_tb.sv(101)
+#    Time: 518688 ns  Iteration: 0  Instance: /lab2_3_tb
+# Break in Module lab2_3_tb at C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/lab2_3_tb.sv line 101
