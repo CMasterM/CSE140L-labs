@@ -5,7 +5,7 @@ task display_tb(input[6:0] seg_d,
   );
    int h1;
    begin
-    h1=$fopen("list.txt");	   // 		'b00001
+    h1=$fopen("output1.txt");	   // 		'b00001
 //	h2=$fopen("list2.txt");    //       'b00010
 //  h3=$fopen("list3.txt");    //       'b00100
  // segment A
