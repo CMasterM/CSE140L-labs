@@ -41,11 +41,71 @@ module traffic_light_controller1(
     next_ctr10 = 0;
     case(present_state)
 /* ************* Fill in the case statements ************** */
+  // Green
 	  GRR: begin 
-         // when is next_state GRR? YRR?
-         // what does ctr5 do? ctr10?
-      end  
-     // etc. 
+        if ((ew_str_sensor == 0) || (ctr5 > 0))
+        	next_ctr5 = ctr5 + 1;
+        
+        if ((ew_left_sensor == 1) || (ns_sensor == 1) || (ctr10 > 0)) 
+          next_ctr10 = ctr10 + 1;
+        
+        if (ctr5 >= 4 || ctr10 >= 9) next_state = YRR;
+        else next_state = GRR;
+      end
+	  RGR: begin 
+        if ((ew_left_sensor == 0) || (ctr5 > 0))
+        	next_ctr5 = ctr5 + 1;
+        
+        if ((ew_str_sensor == 1) || (ns_sensor == 1) || (ctr10 > 0)) 
+          next_ctr10 = ctr10 + 1;
+        
+        if (ctr5 >= 4 || ctr10 >= 9) next_state = RYR;
+        else next_state = RGR;
+      end
+	  RRG: begin 
+        if ((ns_sensor == 0) || (ctr5 > 0))
+        	next_ctr5 = ctr5 + 1;
+        
+        if ((ew_left_sensor == 1) || (ew_str_sensor == 1) || (ctr10 > 0)) 
+          next_ctr10 = ctr10 + 1;
+        
+        if (ctr5 >= 4 || ctr10 >= 9) next_state = RRY;
+        else next_state = RRG;
+      end
+      
+      // red 
+      HRR: begin
+        if (ew_left_sensor)
+          next_state = RGR;
+        else if (ns_sensor)
+          next_state = RRG;
+        else if (ew_str_sensor)
+          next_state = GRR;
+      end
+      RHR: begin
+        if (ns_sensor)
+          next_state = RRG;
+        else if (ew_str_sensor)
+          next_state = GRR;
+        else if (ew_left_sensor)
+          next_state = RGR;
+      end
+      RRH: begin
+        if (ew_str_sensor)
+          next_state = GRR;
+        else if (ew_left_sensor)
+          next_state = RGR;
+        else if (ns_sensor)
+          next_state = RRG;
+      end
+      
+      // yellow 
+      YRR: next_state = ZRR;
+      ZRR: next_state = HRR;
+      RYR: next_state = RZR;
+      RZR: next_state = RHR;
+      RRY: next_state = RRZ;
+      RRZ: next_state = RRH;
     endcase
   end
 
