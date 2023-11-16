@@ -1,0 +1,82 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part1
+Xlab3_part2_tb_file_sv_unit
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 DXx4 work 13 light_package 0 22 fCON28]FCmNO6=><fDZ432
+V6P_khJ7K=Zdi5D2Ih7Mma3
+r1
+!s85 0
+31
+!i10b 1
+!s100 nk4z029>KW@m39n^6lIEd0
+I6P_khJ7K=Zdi5D2Ih7Mma3
+!i103 1
+S1
+R0
+Z3 w1700011387
+Z4 8C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/lab3_part2_tb_file.sv
+Z5 FC:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/lab3_part2_tb_file.sv
+L0 6
+Z6 OV;L;10.5b;63
+Z7 !s108 1700014853.000000
+Z8 !s107 C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/lab3_part2_tb_file.sv|
+Z9 !s90 -reportprogress|300|-work|work|-sv|C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/lab3_part2_tb_file.sv|
+!i113 1
+Z10 o-work work -sv
+Z11 tCvgOpt 0
+vlab3_part2_tbf
+R1
+R2
+DXx4 work 26 lab3_part2_tb_file_sv_unit 0 22 6P_khJ7K=Zdi5D2Ih7Mma3
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 JG[jFW^=>@cD=oY6o7EE91
+I7f9OaZ>EYBMGCL@;>gFIn3
+!s105 lab3_part2_tb_file_sv_unit
+S1
+R0
+R3
+R4
+R5
+L0 7
+R6
+R7
+R8
+R9
+!i113 1
+R10
+R11
+Xlight_package
+R1
+!s110 1700014853
+!i10b 1
+!s100 35zHGA[YlI9h=^`o8DDM@0
+IfCON28]FCmNO6=><fDZ432
+VfCON28]FCmNO6=><fDZ432
+S1
+R0
+R3
+8C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/light_package.sv
+FC:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/light_package.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/light_package.sv|
+!s90 -reportprogress|300|-work|work|-sv|C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/light_package.sv|
+!i113 1
+R10
+R11

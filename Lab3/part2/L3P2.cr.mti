@@ -1,0 +1,38 @@
+C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/traffic_light_controller_part2_starter.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/traffic_light_controller_part2_starter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 18:57:08 on Nov 14,2023
+vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/traffic_light_controller_part2_starter.sv 
+-- Compiling package traffic_light_controller_part2_starter_sv_unit
+-- Importing package light_package
+-- Compiling module traffic_light_controller
+
+Top level modules:
+	traffic_light_controller
+End time: 18:57:08 on Nov 14,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/lab3_part2_tb_file.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/lab3_part2_tb_file.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 18:57:08 on Nov 14,2023
+vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/lab3_part2_tb_file.sv 
+-- Compiling package lab3_part2_tb_file_sv_unit
+-- Importing package light_package
+-- Compiling module lab3_part2_tbf
+
+Top level modules:
+	lab3_part2_tbf
+End time: 18:57:08 on Nov 14,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/light_package.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/light_package.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 18:57:08 on Nov 14,2023
+vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/light_package.sv 
+-- Compiling package light_package
+
+Top level modules:
+	--none--
+End time: 18:57:08 on Nov 14,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}}

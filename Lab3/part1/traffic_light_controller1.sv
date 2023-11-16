@@ -81,6 +81,8 @@ module traffic_light_controller1(
           next_state = RRG;
         else if (ew_str_sensor)
           next_state = GRR;
+        else 
+			   next_state = present_state;
       end
       RHR: begin
         if (ns_sensor)
@@ -89,6 +91,8 @@ module traffic_light_controller1(
           next_state = GRR;
         else if (ew_left_sensor)
           next_state = RGR;
+        else 
+			    next_state = present_state;
       end
       RRH: begin
         if (ew_str_sensor)
@@ -97,6 +101,8 @@ module traffic_light_controller1(
           next_state = RGR;
         else if (ns_sensor)
           next_state = RRG;
+        else 
+			    next_state = present_state;
       end
       
       // yellow 

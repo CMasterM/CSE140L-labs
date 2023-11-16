@@ -1,15 +1,4 @@
-C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/lcd_int3.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/lcd_int3.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-Start time: 20:45:33 on Nov 01,2023
-vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/lcd_int3.sv 
--- Compiling module lcd_int
-
-Top level modules:
-	lcd_int
-End time: 20:45:33 on Nov 01,2023, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
-
-} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/lab2_3_tb.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/lab2_3_tb.sv
+C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/lab2_3_tb.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/lab2_3_tb.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 Start time: 20:45:33 on Nov 01,2023
 vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/lab2_3_tb.sv 
@@ -21,15 +10,26 @@ Top level modules:
 End time: 20:45:33 on Nov 01,2023, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
-} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/cd_mod_D.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/cd_mod_D.sv
+} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/lcd_int3.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/lcd_int3.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 Start time: 20:45:33 on Nov 01,2023
-vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/cd_mod_D.sv 
--- Compiling module ct_mod_D
+vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/lcd_int3.sv 
+-- Compiling module lcd_int
 
 Top level modules:
-	ct_mod_D
+	lcd_int
 End time: 20:45:33 on Nov 01,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/struct_diag.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/struct_diag.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 20:45:32 on Nov 01,2023
+vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/struct_diag.sv 
+-- Compiling module struct_diag
+
+Top level modules:
+	struct_diag
+End time: 20:45:32 on Nov 01,2023, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
 } {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/alarm.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/alarm.sv
@@ -43,15 +43,15 @@ Top level modules:
 End time: 20:45:33 on Nov 01,2023, Elapsed time: 0:00:01
 Errors: 0, Warnings: 0
 
-} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/struct_diag.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/struct_diag.sv
+} {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/cd_mod_D.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/cd_mod_D.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-Start time: 20:45:32 on Nov 01,2023
-vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/struct_diag.sv 
--- Compiling module struct_diag
+Start time: 20:45:33 on Nov 01,2023
+vlog -reportprogress 300 -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/cd_mod_D.sv 
+-- Compiling module ct_mod_D
 
 Top level modules:
-	struct_diag
-End time: 20:45:32 on Nov 01,2023, Elapsed time: 0:00:00
+	ct_mod_D
+End time: 20:45:33 on Nov 01,2023, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0
 
 } {} {}} C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/display_2_3_tb.sv {1 {vlog -work work -sv C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab2/part3_starter_export/Lab2_Part3_Verilog_starter/display_2_3_tb.sv
