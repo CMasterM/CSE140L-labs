@@ -8,9 +8,58 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part1
-Xlab3_part2_tb_file_sv_unit
+vlab3_part1_tb
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 DXx4 work 13 light_package 0 22 fCON28]FCmNO6=><fDZ432
+Z2 DXx4 work 13 light_package 0 22 PabOT4^6m9e4DSTlfTkDd0
+DXx4 work 21 lab3_part1_tb_sv_unit 0 22 ?D8:10h<B[Wiz:omOigOk2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 A:AZG^mOlSMOZZg>CiG332
+Im78AiI^<bEn[X4o^J`j=O1
+!s105 lab3_part1_tb_sv_unit
+S1
+R0
+Z4 w1700008561
+Z5 8C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part1/lab3_part1_tb.sv
+Z6 FC:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part1/lab3_part1_tb.sv
+L0 8
+Z7 OV;L;10.5b;63
+Z8 !s108 1700359580.000000
+Z9 !s107 C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part1/lab3_part1_tb.sv|
+Z10 !s90 -reportprogress|300|-work|work|-sv|C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part1/lab3_part1_tb.sv|
+!i113 1
+Z11 o-work work -sv
+Z12 tCvgOpt 0
+Xlab3_part1_tb_sv_unit
+R1
+R2
+V?D8:10h<B[Wiz:omOigOk2
+r1
+!s85 0
+31
+!i10b 1
+!s100 [hAo9<H^;]Ud6S_@f<]NT2
+I?D8:10h<B[Wiz:omOigOk2
+!i103 1
+S1
+R0
+R4
+R5
+R6
+L0 5
+R7
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Xlab3_part2_tb_file_sv_unit
+R1
+Z13 DXx4 work 13 light_package 0 22 fCON28]FCmNO6=><fDZ432
 V6P_khJ7K=Zdi5D2Ih7Mma3
 r1
 !s85 0
@@ -21,22 +70,22 @@ I6P_khJ7K=Zdi5D2Ih7Mma3
 !i103 1
 S1
 R0
-Z3 w1700011387
-Z4 8C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/lab3_part2_tb_file.sv
-Z5 FC:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/lab3_part2_tb_file.sv
+Z14 w1700011387
+Z15 8C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/lab3_part2_tb_file.sv
+Z16 FC:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/lab3_part2_tb_file.sv
 L0 6
-Z6 OV;L;10.5b;63
-Z7 !s108 1700014853.000000
-Z8 !s107 C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/lab3_part2_tb_file.sv|
-Z9 !s90 -reportprogress|300|-work|work|-sv|C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/lab3_part2_tb_file.sv|
+R7
+Z17 !s108 1700014853.000000
+Z18 !s107 C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/lab3_part2_tb_file.sv|
+Z19 !s90 -reportprogress|300|-work|work|-sv|C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/lab3_part2_tb_file.sv|
 !i113 1
-Z10 o-work work -sv
-Z11 tCvgOpt 0
+R11
+R12
 vlab3_part2_tbf
 R1
-R2
+R13
 DXx4 work 26 lab3_part2_tb_file_sv_unit 0 22 6P_khJ7K=Zdi5D2Ih7Mma3
-VDg1SIo80bB@j0V0VzS_@n1
+R3
 r1
 !s85 0
 31
@@ -46,37 +95,86 @@ I7f9OaZ>EYBMGCL@;>gFIn3
 !s105 lab3_part2_tb_file_sv_unit
 S1
 R0
-R3
-R4
-R5
+R14
+R15
+R16
 L0 7
-R6
 R7
-R8
-R9
+R17
+R18
+R19
 !i113 1
-R10
 R11
+R12
 Xlight_package
 R1
-!s110 1700014853
+!s110 1700359580
 !i10b 1
-!s100 35zHGA[YlI9h=^`o8DDM@0
-IfCON28]FCmNO6=><fDZ432
-VfCON28]FCmNO6=><fDZ432
+!s100 5@Q?o^E@38<Z424WbPzM11
+IPabOT4^6m9e4DSTlfTkDd0
+VPabOT4^6m9e4DSTlfTkDd0
 S1
 R0
-R3
-8C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/light_package.sv
-FC:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/light_package.sv
-L0 1
-R6
+R4
+8C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part1/light_package.sv
+FC:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part1/light_package.sv
+L0 3
+R7
 r1
 !s85 0
 31
-R7
-!s107 C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/light_package.sv|
-!s90 -reportprogress|300|-work|work|-sv|C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/light_package.sv|
+R8
+!s107 C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part1/light_package.sv|
+!s90 -reportprogress|300|-work|work|-sv|C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part1/light_package.sv|
 !i113 1
-R10
 R11
+R12
+vtraffic_light_controller1
+R1
+R2
+DXx4 work 33 traffic_light_controller1_sv_unit 0 22 V2NVP1zJmZI9gfaRh]UR]3
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 Vo^AGnQH1T]LD]IZR`T920
+I=]Yga8DB77jmjFA7;OH=G1
+!s105 traffic_light_controller1_sv_unit
+S1
+R0
+Z20 w1700357766
+Z21 8C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part1/traffic_light_controller1.sv
+Z22 FC:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part1/traffic_light_controller1.sv
+L0 10
+R7
+R8
+Z23 !s107 C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part1/traffic_light_controller1.sv|
+Z24 !s90 -reportprogress|300|-work|work|-sv|C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part1/traffic_light_controller1.sv|
+!i113 1
+R11
+R12
+Xtraffic_light_controller1_sv_unit
+R1
+R2
+VV2NVP1zJmZI9gfaRh]UR]3
+r1
+!s85 0
+31
+!i10b 1
+!s100 ZDa:329WE554CDShh`O9?3
+IV2NVP1zJmZI9gfaRh]UR]3
+!i103 1
+S1
+R0
+R20
+R21
+R22
+L0 7
+R7
+R8
+R23
+R24
+!i113 1
+R11
+R12

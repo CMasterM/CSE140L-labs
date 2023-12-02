@@ -24,9 +24,9 @@ colors ew_left_light,          // left arrow turn from e-w onto n-s
 // output ports = colors (each 2 bits wide)
 traffic_light_controller1 dut(.clk(clk),
        .reset(reset),
-       .ew_str_sensor, 
-       .ew_left_sensor, 
-       .ns_sensor,
+       .ew_str_sensor(ew_str_sensor), 
+       .ew_left_sensor(ew_left_sensor), 
+       .ns_sensor(ns_sensor),
        .ew_str_light(ew_str_light),
        .ew_left_light(ew_left_light),
        .ns_light);
@@ -39,7 +39,7 @@ end
 initial begin
   $dumpfile("dump.vcd");
   $dumpvars;
-  fi = $fopen("lab3_part1_results.txt","w");
+  //fi = $fopen("lab3_part1_results.txt","w");
   $fdisplay(fi,"t   t   t   e   e   n");	   // header for y, g status display
   $fdisplay(fi,"s   l   n   w   w   s");
   $fdisplay(fi,"            s   l    ");

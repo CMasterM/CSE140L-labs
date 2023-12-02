@@ -26,7 +26,7 @@ Z4 8C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/lab3_part2_tb_fi
 Z5 FC:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/lab3_part2_tb_file.sv
 L0 6
 Z6 OV;L;10.5b;63
-Z7 !s108 1700017028.000000
+Z7 !s108 1700359960.000000
 Z8 !s107 C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/lab3_part2_tb_file.sv|
 Z9 !s90 -reportprogress|300|-work|work|-sv|C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/lab3_part2_tb_file.sv|
 !i113 1
@@ -59,7 +59,7 @@ R10
 R11
 Xlight_package
 R0
-!s110 1700017028
+!s110 1700359960
 !i10b 1
 !s100 35zHGA[YlI9h=^`o8DDM@0
 IfCON28]FCmNO6=><fDZ432
@@ -83,25 +83,49 @@ R11
 vtraffic_light_controller
 R0
 R1
-DXx4 work 46 traffic_light_controller_part2_starter_sv_unit 0 22 aKO>H;Agf01zXZSTT]O>73
+DXx4 work 33 traffic_light_controller2_sv_unit 0 22 e]13]D`HkISjZ;oPL]Akz0
 R12
 r1
 !s85 0
 31
 !i10b 1
-!s100 BZZ6n6P1c@OJHPKGAP_>:3
-I>RmNOP]hDJe:oA^GL?gM72
-!s105 traffic_light_controller_part2_starter_sv_unit
+!s100 MB4IJSDhUhJBBg9jShjNl1
+ILenSBdRQFBN<<_MIf?k^41
+!s105 traffic_light_controller2_sv_unit
 S1
 R2
 Z13 w1700016958
-Z14 8C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/traffic_light_controller_part2_starter.sv
-Z15 FC:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/traffic_light_controller_part2_starter.sv
+Z14 8C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/traffic_light_controller2.sv
+Z15 FC:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/traffic_light_controller2.sv
 L0 9
 R6
 R7
-Z16 !s107 C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/traffic_light_controller_part2_starter.sv|
-Z17 !s90 -reportprogress|300|-work|work|-sv|C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/traffic_light_controller_part2_starter.sv|
+Z16 !s107 C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/traffic_light_controller2.sv|
+Z17 !s90 -reportprogress|300|-work|work|-sv|C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/traffic_light_controller2.sv|
+!i113 1
+R10
+R11
+Xtraffic_light_controller2_sv_unit
+R0
+R1
+Ve]13]D`HkISjZ;oPL]Akz0
+r1
+!s85 0
+31
+!i10b 1
+!s100 35kMCa^R26WA;k=YJ3jC=2
+Ie]13]D`HkISjZ;oPL]Akz0
+!i103 1
+S1
+R2
+R13
+R14
+R15
+L0 6
+R6
+R7
+R16
+R17
 !i113 1
 R10
 R11
@@ -119,13 +143,13 @@ IaKO>H;Agf01zXZSTT]O>73
 S1
 R2
 R13
-R14
-R15
+8C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/traffic_light_controller_part2_starter.sv
+FC:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/traffic_light_controller_part2_starter.sv
 L0 6
 R6
-R7
-R16
-R17
+!s108 1700017028.000000
+!s107 C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/traffic_light_controller_part2_starter.sv|
+!s90 -reportprogress|300|-work|work|-sv|C:/Users/cmast/Desktop/CSE140L/Labs/CSE140L-labs/Lab3/part2/traffic_light_controller_part2_starter.sv|
 !i113 1
 R10
 R11
